@@ -1,4 +1,177 @@
 body {
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22.8em;
+    padding: 1em;
+}
+
+.container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1.85em;
+    width: 10em;
+    line-height: 1.1em;
+}
+
+.text {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    margin: 2em 0;
+}
+
+.container_note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 0.5em;
+    width: 21.9em;
+    margin-top: 1em;
+    padding: 1em 0;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.stars>img {
+    width: 1.1em;
+    height: auto;
+    margin: 0.29em;
+}
+
+.text_note {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 0.87em;
+}
+
+.container_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 21.9em;
+    margin-top: 3.2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    padding: 2.9em 2.2em 2.2em 2.2em;
+    margin-bottom: 1em;
+}
+
+.Anne_Wallace {
+    margin-bottom: 4em;
+}
+
+.container_identity {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.photo {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.photo>img {
+    height: 100%;
+    width: auto;
+}
+
+.identity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 1.8em
+}
+
+.name {
+    color:  hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.status {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 0.2em;
+}
+
+.citation {
+    color:  hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 0.83em;
+    line-height: 1.8em;
+    margin-top: 2em;
+}
+/*ordinateur*/
+@media only screen and (min-width: 641px) {
+}
+
+/*mobile*/
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: white;
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top, bottom;
+       /* background-position: top;*/
+        background-repeat: no-repeat;
+        /*background-size: cover;*/
+    }
 }
